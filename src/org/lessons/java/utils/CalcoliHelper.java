@@ -46,5 +46,25 @@ public class CalcoliHelper {
     public static double valoreAssoluto(double a) {
         return Math.abs(a);
     }
+
+    // Minimo tra due numeri interi
+    public static int minimo(int a, int b) {
+        return Math.min(a, b);
+    }
+
+    // Minimo tra due numeri double
+    public static double minimo(double a, double b) {
+        return Math.min(a, b);
+    }
+
+    // Massimo tra due numeri interi
+    public static int massimo(int a, int b) {
+        return Math.max(a, b);
+    }
+
+    // Massimo tra due numeri double
+    public static double massimo(double a, double b) {
+        return Math.max(a, b);
+    }
 }
 
