@@ -26,5 +26,15 @@ public class CalcoliHelper {
     public static double differenza(double a, double b){
         return a - b;
     }
+
+    // Moltiplicazione interi
+    public static int moltiplicazione(int a, int b) {
+        return a * b;
+    }
+
+    // Moltiplicazione double
+    public static double moltiplicazione(double a, double b) {
+        return a * b;
+    }
 }
 
