@@ -16,4 +16,15 @@ public class CalcoliHelper {
     public static double somma(double a, double b){
         return a + b;
     }
+    
+    //Differenza interi
+    public static int differenza(int a, int b){
+        return a - b;
+    }
+
+    //Differenza double
+    public static double differenza(double a, double b){
+        return a - b;
+    }
 }
+
