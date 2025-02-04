@@ -36,5 +36,15 @@ public class CalcoliHelper {
     public static double moltiplicazione(double a, double b) {
         return a * b;
     }
+
+    // Valore assoluto di un numero intero
+    public static int valoreAssoluto(int a) {
+        return Math.abs(a);
+    }
+
+    // Valore assoluto di un numero double
+    public static double valoreAssoluto(double a) {
+        return Math.abs(a);
+    }
 }
 
