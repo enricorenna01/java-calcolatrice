@@ -66,5 +66,13 @@ public class CalcoliHelper {
     public static double massimo(double a, double b) {
         return Math.max(a, b);
     }
+
+    // Elevamento a potenza (base ed esponente interi)
+    public static int elevamentoPotenza(int base, int esponente) {
+        if (base == 0 && esponente == 0) {
+            return 1; // Convenzione informatica: 0^0 = 1
+        }
+        return (int) Math.pow(base, esponente);
+    }
 }
 
